@@ -19,5 +19,6 @@ jobs:
       run: ./gradlew testDebugUnitTest
     - name: Connected Test
       run: ./gradlew connectedDebugAndroidTest
+      uses: vgaidarji/android-github-actions/emulator@v1.0.0
     - name: Build with Gradle
       run: ./gradlew build
